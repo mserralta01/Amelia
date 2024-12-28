@@ -1,0 +1,22 @@
+{
+    "sourceFile": "direct-amelia/src/presentation/api/index.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1735347697093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1735348626367,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+// Placeholder for API presentation\n"
+                }
+            ],
+            "date": 1735347697093,
+            "name": "Commit-0",
+            "content": "// Placeholder for API presentation\n"
+        }
+    ]
+}

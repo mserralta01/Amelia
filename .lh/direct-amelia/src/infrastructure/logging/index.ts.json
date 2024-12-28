@@ -1,0 +1,18 @@
+{
+    "sourceFile": "direct-amelia/src/infrastructure/logging/index.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1735347690408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1735347690408,
+            "name": "Commit-0",
+            "content": "// Placeholder for logging configurations\n"
+        }
+    ]
+}

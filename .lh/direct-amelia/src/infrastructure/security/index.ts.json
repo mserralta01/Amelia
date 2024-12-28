@@ -1,0 +1,22 @@
+{
+    "sourceFile": "direct-amelia/src/infrastructure/security/index.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1735347668499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1735348593735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+// Placeholder for security configurations\n"
+                }
+            ],
+            "date": 1735347668499,
+            "name": "Commit-0",
+            "content": "// Placeholder for security configurations\n"
+        }
+    ]
+}

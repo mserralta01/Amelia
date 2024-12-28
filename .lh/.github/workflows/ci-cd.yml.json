@@ -1,0 +1,18 @@
+{
+    "sourceFile": ".github/workflows/ci-cd.yml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1735349156491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1735349156491,
+            "name": "Commit-0",
+            "content": "name: CI/CD Pipeline\n\non:\n  push:\n    branches:\n      - main\n  pull_request:\n    branches:\n      - main\n\njobs:\n  build:\n    runs-on: ubuntu-latest\n\n    steps:\n    - name: Checkout code\n      uses: actions/checkout@v3\n\n    - name: Setup .NET SDK\n      uses: actions/setup-dotnet@v3\n      with:\n        dotnet-version: 8.0.x\n\n    - name: Restore dependencies\n      run: dotnet restore\n\n    - name: Build\n      run: dotnet build --configuration Release --no-restore\n\n    - name: Test\n      run: dotnet test --configuration Release --no-build --verbosity normal\n\n    - name: Publish\n      if: github.ref == 'refs/heads/main'\n      run: dotnet publish DirectAmelia.Web/DirectAmelia.Web.csproj -c Release -o ./publish\n"
+        }
+    ]
+}

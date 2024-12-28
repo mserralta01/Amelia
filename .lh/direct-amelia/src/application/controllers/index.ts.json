@@ -1,0 +1,18 @@
+{
+    "sourceFile": "direct-amelia/src/application/controllers/index.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1735347595054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1735347595054,
+            "name": "Commit-0",
+            "content": "// Placeholder for controllers\n"
+        }
+    ]
+}
